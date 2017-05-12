@@ -216,7 +216,7 @@ margin-top: 40px;
     margin: 0 auto;
     margin-top: 100px;
     width: 100%;
-    height: 1025px; 
+    height: 1125px; 
   background-color: #f7f9fa;
 }
 
@@ -308,9 +308,16 @@ p.work-categories{
     margin: 0 auto;
     margin-top: 50px;
     width: 50%;
-    height: 925px;
+    height: 1400px;
     
     
+}
+
+.img-portfolio{
+  
+ 
+width:100%;
+    height: 100%;
 }
 
 h2.portfolio{
@@ -326,22 +333,22 @@ text-align: center;
 
 .portfolio-work-left{
     margin: 50px auto 0px;
-    width: 75%;
+    width: 45%;
     height: 350px;
     background-color: white;
     box-shadow: 0px 0px 5px #888888;
-    border-radius: 5px;
+    
     display: inline-block;
     float: left;
 }
 
 .portfolio-work-right{
     margin: 50px auto 0px;
-    width: 75%;
+    width: 45%;
     height: 350px;
     background-color: white;
     box-shadow: 0px 0px 5px #888888;
-    border-radius: 5px;
+    
     display: inline-block;
     float: right;
 }
@@ -364,7 +371,7 @@ text-align: center;
   
     width: 80px;
     height: 80px;
-    margin-left: 50%;
+    margin: 0 auto;
     display: inline-block;
 }
 
@@ -378,8 +385,9 @@ text-align: center;
 
 .contact-logos{
     margin: 0 auto;
-    width:50%;
-    height:200px;
+    margin-top: 20px;
+    width:334px;
+    height:100px;
 
 }
 
@@ -445,6 +453,336 @@ nav ul li{
 nav a:hover{
     
     border-bottom: none;
+    
+}
+
+
+/* ---- MACBOOK-----*/
+
+@media (max-width: 100em){
+    
+ body{
+    
+
+    
+width: 100%;
+    max-width: 2880px;
+    font-family: arial, helvetica, sans-serif;
+    
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;  
+
+}
+    
+      
+    
+   img.header-logo{
+    display: block;
+    margin: 0 auto;
+       width: 320px;
+       height: 230px;
+    padding-top: 112.5px;
+    animation: fadeIn 3s;
+}
+
+#heroimage{
+    
+    width:100%;
+    height:448px;
+    background-image: url("../images/hero_bg.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #f7f9fa;
+    
+} 
+    
+  
+#quick-contents{
+    margin: 0 auto;
+    margin-top: -125px;
+    width:50%;
+    height:600px;
+
+display: block;
+}
+
+h2.quickcontent{
+    
+    margin-top: 250px;
+    font-size: 1.25em;
+}
+
+.qcbox1{
+    margin-top: 40px;
+    width:25%;
+    height: 307.5px;
+    background-image: url("../images/qcbox1.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    display: inline-block;
+    float: left;
+    animation: fadeIn 4s;
+}
+
+
+.qcbox2{
+     margin-top: 40px;
+    width:25%;
+    height: 307.5px;
+    background-image: url("../images/qcbox2.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+     display: inline-block;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    animation: fadeIn 4s;
+}
+
+.qcbox3{
+     margin-top: 40px;
+    width:25%;
+    height: 307.5px;
+    background-image: url("../images/qcbox3.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+     display: inline-block;
+    float: right;
+    animation: fadeIn 4s;
+}  
+    
+   
+#about-me{
+    
+    width:100%;
+    height:300px;
+ margin-top: 80px;
+  
+}
+
+#about-me-box{
+    
+    width: 50%;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: -150px;
+     
+}
+
+.profile-image{
+    
+    margin-top: 40px;
+    width: 158.25px;
+    height: 158.25px;
+}
+
+h2.about-me{
+    
+    margin-top: -200px;
+    margin-left: 25%;
+    margin-right: 5%;
+    color: #003DA5;
+    text-align: left;
+    font-size: 1.75em;
+}
+
+p.about-me{
+    
+   
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: -1px;
+    color: #000;
+    text-align: left;
+    
+    font-size: 1.1em;
+} 
+    
+    
+#how-can-i-help{
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 100%;
+    height: 1100px; 
+  background-color: #f7f9fa;
+}
+
+h2.how-can-i-help{
+     font-size: 1,75em;
+   padding-top: 4%;
+text-align: center;
+    
+}
+
+p.how-can-i-help{
+    
+margin-left: 25%;
+    margin-top: 40px;
+    margin-right: 25%;
+    color: #000000;
+    text-align: left;
+  font-size: 1.1em;
+}
+
+.img-how-can-i-help{
+  
+ 
+margin: 0 auto;
+    display: block;
+}
+
+.branding-and-packaging{
+    width: 20%;
+    height: 200px;
+    margin-top: 80px;
+    margin-left:25%;
+    float: left;
+    display: inline-block;
+    
+}
+
+.print{
+    width: 20%;
+    height: 200px;
+    margin-top: 80px;
+    margin-right:25%;
+   float: right;
+    display: inline-block;
+    
+}
+
+.ui{
+     width: 20%;
+    height: 200px;
+    margin-top: 100px;
+    margin-left:25%;
+    float: left;
+    display: inline-block;
+
+}
+
+.web-design{
+       width: 20%;
+    height: 200px;
+    margin-top: 100px;
+    margin-right:25%;
+   float: right;
+    display: inline-block;
+
+}
+
+h2.work-categories{
+    
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #003DA5;
+    text-align: center;
+    text-transform: none;
+    font-size: 1.25em;
+}
+
+p.work-categories{
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+    
+    #portfolio{
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 1050px;
+    
+    
+}
+    
+    .img-portfolio{
+  
+ 
+width:100%;
+    height: 100%;
+}
+
+h2.portfolio{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+
+
+
+.portfolio-work-left{
+    margin: 50px auto 0px;
+    width: 45%;
+    height: 262.5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #888888;
+    display: inline-block;
+    float: left;
+}
+
+.portfolio-work-right{
+    margin: 50px auto 0px;
+    width: 45%;
+    height: 262.5px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #888888;
+    display: inline-block;
+    float: right;
+}
+
+.portfolio-work a:hover {
+    background-color: dodgerblue;
+}
+    
+
+#contact{
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color :#f5f5f5;
+     display: block;
+    
+}
+
+.img-contact{
+  
+    width: 60px;
+    height: 60px;
+margin: 0 auto;
+    display: inline-block;
+}
+
+h2.contact{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+.contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:355px;
+    height:100px;
+ margin-left: 40%;
+
+}
     
 }
 
@@ -697,6 +1035,13 @@ p.work-categories{
     
     
 }
+    
+    .img-portfolio{
+  
+ 
+width:100%;
+    height: 100%;
+}
 
 h2.portfolio{
     
@@ -711,7 +1056,7 @@ text-align: center;
 
 .portfolio-work-left{
     margin: 50px auto 0px;
-    width: 33.75%;
+    width: 45%;
     height: 262.5px;
     background-color: white;
     box-shadow: 0px 0px 5px #888888;
@@ -721,7 +1066,7 @@ text-align: center;
 
 .portfolio-work-right{
     margin: 50px auto 0px;
-    width: 33.75%;
+    width: 45%;
     height: 262.5px;
     background-color: white;
     box-shadow: 0px 0px 5px #888888;
@@ -762,11 +1107,821 @@ text-align: center;
 .contact-logos{
     margin: 0 auto;
     margin-top: 50px;
-    width:50%;
-    height:200px;
- margin-left: 40%;
+    width:254px;;
+    height:100px;
+
 
 }
     
+    .contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:255px;
+    height:100px;
+ 
+
+}
+    
+    
+    img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 15%;;
+}
+    
+
+nav{
+    
+    width: 100%;
+    height: 150px;
+background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+
 }
 
+nav ul{
+    width:50%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-top:-25px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    
+}
+    
+    
+    .contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:255px;
+    height:100px;
+ 
+
+}
+    
+    
+    img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 15%;;
+}
+    
+
+nav{
+    
+    width: 100%;
+    height: 125px;
+background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+
+}
+
+nav ul{
+    width:50%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-top:-25px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    
+}
+    
+
+
+    
+}
+
+
+/* ---- TABLET-----*/
+
+@media (max-width: 50em){
+    
+    body{
+        
+        background-color: #fff;
+        margin: auto;
+
+        max-width: 1010px;
+        font-size: 110%;
+    }
+    
+       img.header-logo{
+    display: block;
+    margin: 0 auto;
+       width: 320px;
+       height: 230px;
+    padding-top: 112.5px;
+    animation: fadeIn 3s;
+}
+
+#heroimage{
+    
+    width:100%;
+    height:448px;
+    background-image: url("../images/hero_bg.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #f7f9fa;
+    
+} 
+    h2{
+        margin-top:20px;
+    }
+  
+#quick-contents{
+    margin: 0 auto;
+    margin-top: -105px;
+    width:50%;
+    height:1100px;
+display: block;
+}
+
+h2.quickcontent{
+    
+    margin-top: 250px;
+    font-size: 1.25em;
+}
+
+.qcbox1{
+    margin: 20px 0px 0px;
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox1.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    
+    animation: fadeIn 4s;
+}
+
+
+.qcbox2{
+   
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox2.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+margin: 20px 0px 0px;
+    animation: fadeIn 4s;
+}
+
+.qcbox3{
+     margin-top: 40px;
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox3.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    margin: 20px 0px 0px;
+    animation: fadeIn 4s;
+}  
+    
+   
+#about-me{
+    
+    width:100%;
+    height:700px;
+ margin-top: 200px;
+  
+}
+
+#about-me-box{
+    
+    width: 100%;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: -150px;
+     
+}
+
+.profile-image{
+    
+    display: block;
+    margin: 0 auto;
+    width: 158.25px;
+    height: 158.25px;
+}
+
+h2.about-me{
+    
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #003DA5;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+p.about-me{
+    
+  margin-left: 15%;
+    margin-top: 40px;
+    margin-right: 15%;
+    color: #000000;
+    text-align: left;
+  font-size: 1.1em;
+} 
+    
+    
+#how-can-i-help{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100%;
+    height: 2000px; 
+  background-color: #f7f9fa;
+}
+
+h2.how-can-i-help{
+     font-size: 1,75em;
+   margin-top: 10%;
+text-align: center;
+    
+}
+
+p.how-can-i-help{
+    
+margin-left: 15%;
+    margin-top: 40px;
+    margin-right: 15%;
+    color: #000000;
+    text-align: left;
+  font-size: 1.1em;
+}
+
+.img-how-can-i-help{
+  
+ 
+margin: 0 auto;
+    display: block;
+}
+
+.branding-and-packaging{
+    width: 50%;
+    height: 275px;
+
+    display: block;
+}
+
+.print{
+    width: 50%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+    
+}
+
+.ui{
+      width: 50%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+
+}
+
+.web-design{
+      width: 50%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+ 
+
+}
+
+h2.work-categories{
+    
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #003DA5;
+    text-align: center;
+    text-transform: none;
+    font-size: 1.25em;
+}
+
+p.work-categories{
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+    
+    #portfolio{
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 2100px;
+    
+    
+}
+    
+    .img-portfolio{
+  
+ 
+width:100%;
+    height: 100%;
+}
+
+h2.portfolio{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+
+
+
+.portfolio-work-left{
+    width: 100%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+}
+
+.portfolio-work-right{
+    width: 100%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+}
+
+.portfolio-work a:hover {
+    background-color: dodgerblue;
+}
+    
+
+#contact{
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color :#f5f5f5;
+     display: block;
+    
+}
+
+.img-contact{
+  
+    width: 60px;
+    height: 60px;
+margin: 0 auto;
+    display: inline-block;
+}
+
+h2.contact{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+.contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:255px;
+    height:100px;
+ 
+
+}
+    
+    .contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:255px;
+    height:100px;
+ 
+
+}
+    
+    
+    img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 10%;;
+}
+    
+
+nav{
+    
+    width: 100%;
+    height: 50px;
+background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+
+}
+
+nav ul{
+    width:50%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-top:-25px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    
+}
+    
+    
+
+    
+}
+
+/* ---- SMARTPHONE-----*/
+
+@media (max-width: 35em){
+    
+    
+    body{
+        
+
+        width: 100%;
+    max-width: 551px;
+    font-family: arial, helvetica, sans-serif;
+    
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;  
+    }
+    
+    #heroimage{
+    
+    width:100%;
+    height:448px;
+    background-image: url("../images/hero_bg.png")  ;
+      background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #f7f9fa;
+    
+} 
+    h2{
+        margin-top:20px;
+    }
+  
+#quick-contents{
+    margin: 0 auto;
+    margin-top: -105px;
+    width:50%;
+    height:1100px;
+display: block;
+}
+
+h2.quickcontent{
+    
+    margin-top: 250px;
+    font-size: 1.25em;
+}
+
+.qcbox1{
+    margin: 20px 0px 0px;
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox1.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    
+    animation: fadeIn 4s;
+}
+
+
+.qcbox2{
+   
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox2.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+margin: 20px 0px 0px;
+    animation: fadeIn 4s;
+}
+
+.qcbox3{
+     margin-top: 40px;
+    width:100%;
+    height: 307.5px;
+    background-image: url("../images/qcbox3.png");
+    background-repeat: no-repeat;
+    background-color: #f7f9fa;
+    box-shadow: 0px 0px 5px #888888;
+    border-radius: 5px;
+    margin: 20px 0px 0px;
+    animation: fadeIn 4s;
+}  
+    
+   
+#about-me{
+    
+    width:100%;
+    height:700px;
+ margin-top: 200px;
+  
+}
+
+#about-me-box{
+    
+    width: 100%;
+    height: 375px;
+    margin: 0 auto;
+    margin-top: -150px;
+     
+}
+
+.profile-image{
+    
+    display: block;
+    margin: 0 auto;
+    width: 158.25px;
+    height: 158.25px;
+}
+
+h2.about-me{
+    
+    padding-top: 50px;
+    margin: 0 auto;
+    color: #003DA5;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+p.about-me{
+    
+   
+    margin: 0 auto;
+    color: #000;
+    text-align: left;
+    margin-left: 15%;
+     margin-right: 15%;
+    font-size: 1.1em;
+} 
+    
+    
+#how-can-i-help{
+    margin: 0 auto;
+
+    width: 100%;
+    height: 2500px; 
+  background-color: #f7f9fa;
+}
+
+h2.how-can-i-help{
+     font-size: 1,75em;
+   margin-top: 25%;
+text-align: center;
+    
+}
+
+p.how-can-i-help{
+    
+margin-left: 15%;
+    margin-top: 40px;
+    margin-right: 15%;
+    color: #000000;
+    text-align: left;
+  font-size: 1.1em;
+}
+
+.img-how-can-i-help{
+  
+ 
+margin: 0 auto;
+    display: block;
+}
+
+.branding-and-packaging{
+    width: 50%;
+    height: 275px;
+
+    display: block;
+}
+
+.print{
+    width: 50%;
+    height: 275px;
+ margin-top: 100px;
+    display: block;
+    
+}
+
+.ui{
+      width: 50%;
+    height: 275px;
+ margin-top: 100px;
+    display: block;
+
+}
+
+.web-design{
+      width: 50%;
+    height: 275px;
+ margin-top: 150px;
+    display: block;
+ 
+
+}
+
+h2.work-categories{
+    
+   
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #003DA5;
+    text-align: center;
+    text-transform: none;
+    font-size: 1.25em;
+}
+
+p.work-categories{
+    display: inline-block;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    text-align: center;
+    font-size: 1.1em;
+    
+}
+    
+    #portfolio{
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    height: 2100px;
+    
+    
+}
+
+    .img-portfolio{
+  
+ 
+width:100%;
+    height: 100%;
+}
+    
+h2.portfolio{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+
+
+
+.portfolio-work-left{
+    width: 100%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+}
+
+.portfolio-work-right{
+    width: 100%;
+    height: 275px;
+ margin-top: 50px;
+    display: block;
+}
+
+
+    
+
+#contact{
+    margin-top: 100px;
+    width: 100%;
+    height: 250px;
+    background-color :#f5f5f5;
+     display: block;
+    
+}
+
+.img-contact{
+  
+    width: 60px;
+    height: 60px;
+margin: 0 auto;
+    display: inline-block;
+}
+
+h2.contact{
+    
+    font-size: 1.75em;
+ padding-top: 40px;
+text-align: center;
+
+}
+
+.contact-logos{
+    margin: 0 auto;
+    margin-top: 50px;
+    width:255px;
+    height:100px;
+ 
+
+}
+    
+    
+    img.menu-logo {
+    height: 57.5px;
+    width: 57.38px;
+    margin-left: 15%;;
+}
+    
+
+nav{
+    
+    width: 100%;
+    height: 150px;
+background-color: #f5f5f5;
+    width: 100%;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+
+
+}
+
+nav ul{
+    width:50%;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0 auto;
+    margin-top:-25px;
+}
+
+nav ul li{
+    
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+nav a:hover{
+    
+    border-bottom: none;
+    
+}
+    
+    }
